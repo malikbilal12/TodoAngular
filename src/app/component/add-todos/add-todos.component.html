@@ -1,0 +1,7 @@
+<div >
+    <form (ngSubmit)="onSubmit()" class="card d-flex flex-row justify-content-between mx-5 p-2 mb-2"> 
+        <input type="text" [(ngModel)]="title" [ngModelOptions]="{ standalone: true }" placeholder="Enter Todo" class="form-control w-50" id="title">
+        <button type="submit" class="btn btn-primary">Add Todo</button> 
+    </form>
+  </div>
+  

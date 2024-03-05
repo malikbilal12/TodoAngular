@@ -1,0 +1,5 @@
+<div class="card d-flex flex-row justify-content-between mx-5 p-2 mb-2">
+  <input class="form-check-input" type="checkbox"  (click)="checktodo(todo)" >
+  <h6 [class.strike]="!todo.active" [class.nostrike]="todo.active">{{ todo.title }}</h6>
+  <button class="btn btn-danger" (click)="deletetodo(todo)" >Delete</button>
+</div>

@@ -1,0 +1,8 @@
+.page{
+    text-align: center;
+    background-color: brown;
+    color: rgb(194, 224, 214);
+    border: 1px solid black;
+    padding: auto;
+    margin: 100px 100px;
+}
